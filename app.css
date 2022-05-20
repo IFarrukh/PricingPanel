@@ -129,7 +129,7 @@ html {
 }
 
 body {
-	background-color: #77f4cf;
+	background-color: #bbd85f;
 	display: flex;
 	justify-content: center;
 	min-height: 100vh;
@@ -148,7 +148,7 @@ body {
 	text-transform: uppercase;
 }
 .pricing-plan {
-	border-bottom: 1px solid #afedd9;
+	border-bottom: 1px solid #bbd85f;
 }
 
 .pricing-plan:last-child {
@@ -166,7 +166,7 @@ body {
 }
 .pricing-features {
 	margin: 50px 0 20px;
-	color: #2dc590;
+	color: #94bf0d;
 }
 .pricing-features-item {
 	font-weight: 600;
@@ -174,21 +174,22 @@ body {
 	font-size: 12px;
 	line-height: 1.5;
 	padding: 15px 0;
-	border-top: 1px solid #afedd9;
+	border-top: 1px solid #d9ed97;
 }
 .pricing-features-item:last-child {
-	border-bottom: 1px solid #afedd9;
+	border-bottom: 1px solid #d9ed97;
 }
 .pricing-price {
-	color: #2dc590;
+	color: #94bf0d;
 	display: block;
 	font-size: 32px;
 	font-weight: 700;
 }
 .pricing-button {
-	border: 1px solid #afedd9;
+	border: 1px solid #bbd85f;
+	font-weight: 700;
 	border-radius: 10px;
-	color: #2dc590;
+	color: #94bf0d;
 	display: inline-block;
 	padding: 15px 35px;
 	text-decoration: none;
@@ -197,16 +198,16 @@ body {
 }
 .pricing-button:hover,
 .pricing-button:active {
-	background-color: #aeedd9;
+	background-color: #ddecad;
 }
 
 .pricing-button.is-featured {
-	background-color: #78eec8;
+	background-color: #bbd85f;
 	color: white;
 }
 .pricing-button.is-featured:hover,
 .pricing-button.is-featured:focus {
-	background-color: #46f0ba;
+	background-color: #bbd85f;
 	color: white;
 }
 
@@ -216,7 +217,7 @@ body {
 	}
 	.pricing-plan {
 		border-bottom: none;
-		border-right: 1px solid #afedd9;
+		border-right: 1px solid #d9ed97;
 		padding: 25px 50px;
 	}
 	.pricing-plan:last-child {
